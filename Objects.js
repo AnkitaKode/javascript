@@ -1,7 +1,17 @@
-const item = {
-    "Ankita": true,
-    "Shiv": false,
-    "Raavi": 18,
-    "Annie": undefined
+const person = {
+    firstname: "Ankita",
+    lastname: "Kumari",
+    age: 18,
+    hobbies: ['music', 'movies', 'sports'],
+    address: {
+        street: 'Boring Road',
+        city: 'Patna',
+        state: 'Bihar',
+    }
+
 }
-console.log(item["Raavi"])
+person.email = 'ankita00iv@gmail.com'
+console.log(person)
+console.log(person.firstname)
+console.log(person.address.city)
+console.log(person.email)
