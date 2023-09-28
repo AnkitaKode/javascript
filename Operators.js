@@ -25,3 +25,13 @@ let y = 6;
 console.log(x < y && x == 5)
 console.log(x > y && x == 5)
 console.log(!false)
+
+a-=10;
+b+=4;
+console.log(a);
+console.log(b);
+
+a *= 5;
+b /= 2;
+console.log(a);
+console.log(b);

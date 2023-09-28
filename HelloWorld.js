@@ -1,6 +1,6 @@
 console.log("hello world..!")
-const name = "Ankita";
-const age = 18;
+const name = "Bob";
+const age = 1;
 console.log(`My name is ${name} and I am ${age} years old.`)
 a = "Everything OK...✨?"
 console.log(a)
