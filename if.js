@@ -1,15 +1,13 @@
-//Runs in chrome
-let age = prompt("Please enter your age:");
-age = parseInt(age);
+const x = 100;
 
-if (!isNaN(age)) {
-  if (age >= 18) {
-    console.log("You are eligible to drive.");
-  } else if (age >= 16) {
-    console.log("You can apply for a learner's permit.");
-  } else {
-    console.log("You are not eligible to drive yet.");
-  }
-} else {
-  console.log("Invalid input. Please enter a valid age.");
+if (x == 10) {
+  console.log("x is 10");
 }
+else if (x > 10) {
+  console.log("x is greater than 10")
+}
+else {
+  console.log("lesser than10")
+}
+
+console.log(x)
