@@ -21,7 +21,7 @@ person.prototype.getFullName = function () {
     return `${this.firstname} ${this.lastname}`
 }
 // Instantiate objects
-const person1 = new person('Ankita', 'Kumari', '2005-12-26');
+const person1 = new person('Ankita', 'Sharma', '2005-12-26');
 const person2 = new person('Bella', 'Sharma', '2006-01-26');
 
 console.log(person1.getFullName());
