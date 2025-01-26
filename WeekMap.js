@@ -1,4 +1,4 @@
-function weekmap() {
+function ankita() {
     let looseMap = new WeakMap();
     let Ram = {name};
     let Raj = {name};
@@ -9,4 +9,4 @@ function weekmap() {
     console.log(looseMap);
     console.log(looseMap.has(Ram))
 }
-weekMap();
+ankita();
