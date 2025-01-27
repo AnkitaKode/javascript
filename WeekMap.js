@@ -9,4 +9,5 @@ function ankita() {
     console.log(looseMap);
     console.log(looseMap.has(Ram))
 }
+
 ankita();
